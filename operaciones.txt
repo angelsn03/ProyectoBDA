@@ -1,0 +1,7 @@
+crear un trigger que verifique si un boleto está disponible antes de que se inserte una nueva compra y en caso de que no, suelte error
+
+crear un trigger que revise si la cantidad de boletos disponibles es 0 y en caso de que si, actualizar su estado a agotado
+
+crear un stored procedure que verifique si hay boletos disponibles. Si hay boletos disponibles, inserta una nueva compra y actualiza el stock de boletos. Además, inserta una notificación para el usuario indicando que la compra se realizó con éxito.
+
+crear un stored procedure que devuelva el historial de compras de un usuario, mostrando la fecha de compra y el nombre del boleto.
